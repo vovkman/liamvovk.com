@@ -1,3 +1,10 @@
+
+body {
+    position: relative;
+    font: 20px Montserrat, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 #about {
     padding-top: 100px;
     background-color: #aaa;
@@ -112,7 +119,7 @@
     border-color: #333 !important;
     background-color: #222;
     height: 50px;
-    width: 33%
+    width: 32%
 }
 
 .contact-title {
