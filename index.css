@@ -1,12 +1,11 @@
 @font-face {
   font-family: Product Sans;
-  src: url('./font/Product\ Sans\ Regular.ttf') format('truetype');
+  src: url("./font/Product\ Sans\ Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: Product Sans B;
-  src: url('./font/Product\ Sans\ Bold.ttf') format('truetype');
+  src: url("./font/Product\ Sans\ Bold.ttf") format("truetype");
 }
-/* Product Sans,Roboto,arial,sans-serif; */
 body {
   position: absolute;
   display: flex;
@@ -93,7 +92,7 @@ body {
   /* display: flex;
     align-items: center;
     justify-content: center; */
-  content: '';
+  content: "";
   display: block;
   padding-bottom: 100%;
 }
