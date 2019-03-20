@@ -4,7 +4,7 @@
 
 body {
   width: 100vw;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #111;
   letter-spacing: 0.06rem;
   line-height: 1.8rem;
@@ -30,6 +30,14 @@ a {
   overflow: hidden;
   margin: 1rem 0 0 0;
   border-bottom: none;
+}
+
+.contact-link:first-of-type {
+  align-items: flex-start;
+}
+
+.contact-link:last-of-type {
+  align-items: flex-end;
 }
 
 .core {
@@ -62,7 +70,7 @@ a {
 }
 
 .site {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -149,8 +157,8 @@ a {
   flex-wrap: wrap;
 }
 
-.mini-img {
-  max-width: 15%;
+.contact-img {
+  max-width: 50%;
 }
 
 .small-img {
