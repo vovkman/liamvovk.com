@@ -26,12 +26,17 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      let path = window.location.hash;
-      path = path.replace("#", "");
-      gtag("config", "UA-134714263-1", {
-        page_path: path
-      });
+      gtag('js', new Date());
+      const setPath = () => {
+        let path = window.location.hash;
+        path = path.replace('#', '');
+        console.log(path);
+        gtag('config', 'UA-134714263-1', {
+          page_path: path,
+        });
+      };
+      setPath();
+      window.onhashchange = setPath;
     </script>
     <title>Liam Vovk</title>
   </head>
