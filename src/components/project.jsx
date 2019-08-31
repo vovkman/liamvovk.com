@@ -39,9 +39,7 @@ const renderProjectImages = project => (
     {project.img_src.map((src, key) => (
       <>
         <img
-          className={`project small-img medium-img-nxl large-image-nl self-start self-center-nxl pr4 pb6 pr0-nl ${
-            project.img_css
-          }`}
+          className={`project small-img medium-img-nxl large-image-nl self-start self-center-nxl pr4 pb6 pr0-nl ${project.img_css}`}
           src={src}
           key={key}
           alt={project.img_alt}
@@ -65,17 +63,17 @@ export const projects = {
     img_css: 'gighub-imgs',
     img_alt: 'Gighub',
     next: '/work/ownr/',
-    prev: '#'
+    prev: '#',
   },
   ownr: {
     title: 'OWNR',
     description:
-      'As a software developer for RBC Ventures I work on the OWNR team. Here I develop full stack applications using NodeJS, React with Redux, and TypeScript, using Observables (rxjs) extensively to handle async operations and sequencing of actions. Outside of pure development my responsibilities includ developing a deep understanding of website build and delivery process in order to optimize user experience on slow networks, and the technical implementation of Google Analytics to conform with RBC security standards for RBC Ventures apps hosted in the cloud. My role with GA has given me the opportunity to work extensively with product, marketing, design, and internal RBC teams, giving me a well rounded view of what it takes to convert users into paying customers, as well as how to manage integrations between RBC Ventures cloud and internal RBC.',
+      'As a software developer for RBC Ventures I work on the OWNR team. In my time here I have gained expertise in all facets of application development, from building microservices and the front end’s that consume them, to writing scripts that enable one-click deployments of an application.',
     img_src: ['/ownr-1.png', '/ownr-2.png', '/ownr-3.png'],
     img_css: 'ownr-imgs',
     img_alt: 'OWNR',
     prev: '/work/gighub/',
-    next: '/work/automated_core_logging/'
+    next: '/work/automated_core_logging/',
   },
   automated_core_logging: {
     title: 'Computer Vision',
@@ -86,7 +84,7 @@ export const projects = {
     img_alt: 'Thesis',
     img_description: ['Mapping core breaks onto a 3D plane'],
     prev: '/work/gighub/',
-    next: '/work/personal_site/'
+    next: '/work/personal_site/',
   },
   personal_site: {
     title: 'liamvovk.com',
@@ -95,6 +93,6 @@ export const projects = {
     img_css: 'personal-imgs',
     img_alt: 'Personal Website',
     prev: '/work/ownr/',
-    next: '#'
-  }
+    next: '#',
+  },
 };
