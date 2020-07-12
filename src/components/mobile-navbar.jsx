@@ -30,17 +30,17 @@ export const MobileNavbar = () => {
     >
       <div className="dropdown-content outline-0" tabIndex={2}>
         <nav className="main-nav flex-column items-center">
-          <div className="nav" onClick={clickItem}>
-            <Link to="/">ABOUT</Link>
-          </div>
+          {/*<div className="nav" onClick={clickItem}>*/}
+          {/*  <Link to="/">ABOUT</Link>*/}
+          {/*</div>*/}
 
-          <div className="nav" onClick={clickItem}>
-            <Link to="/work/">WORK</Link>
-          </div>
+          {/*<div className="nav" onClick={clickItem}>*/}
+          {/*  <Link to="/work/">WORK</Link>*/}
+          {/*</div>*/}
 
-          <div className="nav" onClick={clickItem}>
-            <Link to="/contact/">CONTACT</Link>
-          </div>
+          {/*<div className="nav" onClick={clickItem}>*/}
+          {/*  <Link to="/contact/">CONTACT</Link>*/}
+          {/*</div>*/}
         </nav>
       </div>
       <div className="outline-0" onClick={clickItem}>

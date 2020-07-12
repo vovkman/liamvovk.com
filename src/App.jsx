@@ -17,8 +17,8 @@ class App extends Component {
             <Navbar />
             <MobileNavbar />
             <Route path="/" exact render={About} />
-            <Route path="/work/" render={Work} />
-            <Route path="/contact/" render={Contact} />
+            {/*<Route path="/work/" render={Work} />*/}
+            {/*<Route path="/contact/" render={Contact} />*/}
           </div>
         </ScrollToTop>
       </Router>

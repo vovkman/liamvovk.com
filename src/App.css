@@ -197,6 +197,10 @@ a {
   justify-content: center;
 }
 
+justify-start {
+  justify-content: flex-start;
+}
+
 .pointer {
   cursor: pointer;
 }
